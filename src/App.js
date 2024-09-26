@@ -5,7 +5,7 @@ import Profile from './Profile';
 function App() {
     return (
         <div className="App">
-            <h1>this page renders by React</h1>
+            <h1>this page renders by React!</h1>
             <Profile />
         </div>
     );
