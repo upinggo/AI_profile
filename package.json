@@ -6,7 +6,7 @@
   "homepage": "https://upinggo.github.io/AI_profile/",
   "scripts": {
     "start": "node server.js",
-    "predeploy": "cd ./syl_profile && run build",
+    "predeploy": "cd ./syl_profile && npm run build",
     "deploy": "gh-pages -d build"
 }
 }
