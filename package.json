@@ -7,6 +7,6 @@
   "scripts": {
     "start": "node server.js",
     "predeploy": "cd ./syl_profile && npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "cd ./syl_profile && gh-pages -d build"
 }
 }
